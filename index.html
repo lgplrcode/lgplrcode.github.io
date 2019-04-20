@@ -152,6 +152,121 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-搭建个人博客（遇到问题解决方法总结）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/">搭建个人博客（遇到问题解决方法总结）</a>
+    </h1>
+  
+
+        
+        <a href="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/" class="archive-article-date">
+  	<time datetime="2019-04-20T10:41:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-20</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>问题一：无ssh密码，hexo d不能部署到远端</p>
+<p>解决方法：创建ssh码</p>
+<ol>
+<li>输入</li>
+</ol>
+<p>​      <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.1.png"></p>
+<ol start="2">
+<li>查看密匙列表：</li>
+</ol>
+<p>​     <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.2.png"></p>
+<ol start="3">
+<li>若无密匙，创建：</li>
+</ol>
+<p>​     <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.3.png"></p>
+<ol start="4">
+<li>找到.ssh文件夹，用记事本打开id.rsa.pub公匙复制上面内容</li>
+</ol>
+<p>​      <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.4.png"></p>
+<ol start="5">
+<li>在github账户中右上角点击账户然后打开settings设置</li>
+</ol>
+<p>​        <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.5.png">     </p>
+<ol start="6">
+<li>点击左边列表的ssh and gpg keys</li>
+</ol>
+<p>​           <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.6.png"></p>
+<ol start="7">
+<li><p>新建密匙，key中输入复制内容点击完成，ssh密匙创建成功</p>
+   <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t1.7.png">
+</li>
+</ol>
+<p>问题二：删除blog后新建一个blog遇到hexo d时遇到以下代码；Permission to XXXXXXXXXX fatal: unable to access ‘XXXXXXXXXXXX: The requested URL returned error: 403</p>
+<p>解决方法：删除Windows凭证</p>
+<ol>
+<li>打开电脑控制面板：</li>
+</ol>
+<p>​          <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t2.1.png"></p>
+<ol start="2">
+<li>点击用户账户：</li>
+</ol>
+<p>​           <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t2.2.png"></p>
+<ol start="3">
+<li>点击凭证管理器</li>
+</ol>
+<p>​           <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t2.3.png"></p>
+<ol start="4">
+<li>点击windows凭证，删除或修改普通凭证git：https：//github.com</li>
+</ol>
+<p>​            <img src="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/t2.4.png"></p>
+<p>三，遇到本地图片在blog中无法显示的问题</p>
+<p>在Typora中，使用Ctrl+Shift+I来进行图片的上传，如果无法显示，可以通过</p>
+
+<p>进行创建。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/20/搭建个人博客（遇到问题解决方法总结）/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Windows系统-hexo框架下构建个人博客（个人过程经验）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
